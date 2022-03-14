@@ -7,7 +7,7 @@ answer = Number(preanswer);
 console.log(typeof Number(answer));
 console.log(2 > 1);
 console.log("2" > 1);
-// answer == NaN 這個不行
+// answer == NaN 這個不行，因為NaN == NaN永遠會是false
 
 while (true) {
   if (
